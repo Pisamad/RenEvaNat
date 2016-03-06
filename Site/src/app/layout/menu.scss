@@ -1,0 +1,57 @@
+.menu {
+  position: absolute;
+  top: -16px;
+  right: 0px;
+
+  ul {
+    padding: 0px;
+
+    li {
+      list-style-type: none;
+      border-top: none;
+      //        border-left: 1px solid #FFFFFF;
+      float: left;
+      margin: 0;
+      padding: 0;
+      padding-left: 5px;
+      padding-top: 13px;
+      padding-bottom: 13px;
+
+      :hover {
+        background-color: #608d45;
+
+        ul {
+          display: block;
+          background-color: #47891F;
+          padding-left: 0px;
+        }
+      }
+
+      a, a:hover, a:visited {
+        text-decoration: none;
+        color: #fff;
+        cursor: default;
+        font-weight: bold;
+        font-size: 100%;
+        width: 100%;
+        font-family: Arial;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        padding-left: 10px;
+        padding-right: 10px;
+        /* height: 16px; */
+//        .active {
+//          background-color: #47891F;
+//        }
+      }
+    }
+  }
+}
+
+.menu_bas {
+  position: absolute;
+  bottom: -16px;
+  right: 0px;
+  color: #000;
+}
+
